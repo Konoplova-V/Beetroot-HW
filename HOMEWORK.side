@@ -1,0 +1,730 @@
+{
+  "id": "8af7ba8d-5e7f-4ae1-836a-acac7d34b1cf",
+  "version": "2.0",
+  "name": "HOMEWORK",
+  "url": "https://masterzoo.ua/ua/",
+  "tests": [{
+    "id": "563c801e-204a-4466-817f-713c846c6ef0",
+    "name": "Test 1",
+    "commands": [{
+      "id": "fdb9bd94-c82e-41ae-95ba-de71485ceb8d",
+      "comment": "",
+      "command": "open",
+      "target": "https://masterzoo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "583e31b3-4c01-4c15-a006-99b955d84cdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.userbar__button",
+      "targets": [
+        ["css=.userbar__button", "css:finder"],
+        ["xpath=//a[contains(@href, '#j-popup-tab-auth')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d610ec5-c730-4200-b694-274cefc743fb",
+      "comment": "",
+      "command": "type",
+      "target": "css=#login_form_id .j-focus",
+      "targets": [
+        ["css=#login_form_id .j-focus", "css:finder"],
+        ["xpath=(//input[@name='user[email]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='login_form_id']/dl/dd/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/dl/dd/input", "xpath:position"]
+      ],
+      "value": "juan_hulio@gmail.com"
+    }, {
+      "id": "3716e2a0-1d38-4c3f-bbe7-3caa2e842632",
+      "comment": "",
+      "command": "click",
+      "target": "name=user[pass]",
+      "targets": [
+        ["name=user[pass]", "name"],
+        ["css=#login_form_id .form-item:nth-child(4) > .field", "css:finder"],
+        ["xpath=//input[@name='user[pass]']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form_id']/dl/dd[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/dl/dd[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c0dceb9-2285-488f-bfa6-386dd51bfa2f",
+      "comment": "",
+      "command": "type",
+      "target": "name=user[pass]",
+      "targets": [
+        ["name=user[pass]", "name"],
+        ["css=#login_form_id .form-item:nth-child(4) > .field", "css:finder"],
+        ["xpath=//input[@name='user[pass]']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form_id']/dl/dd[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/dl/dd[2]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "b9b1bee4-8385-4ee4-ab7f-8b4e021a0a82",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login_form_id .btn-input",
+      "targets": [
+        ["css=#login_form_id .btn-input", "css:finder"],
+        ["xpath=//input[@value='Увійти']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form_id']/dl/dd[3]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/dl/dd[3]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9eb18b8-a3dd-4b0b-a2c5-6b8fa3717d13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Коти",
+      "targets": [
+        ["linkText=Коти", "linkText"],
+        ["css=.\\__hover .products-menu__title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Коти')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/catalog/koti/')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Коти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f0c4d8f-b6c4-4208-8e8d-5dce36e71b84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__item:nth-child(3) .catalogCard-img",
+      "targets": [
+        ["css=.catalog-grid__item:nth-child(3) .catalogCard-img", "css:finder"],
+        ["xpath=(//img[@alt='Туалети та аксесуари для котів'])[2]", "xpath:img"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/div/ul/li[3]/div/div/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8c9b17a-978a-48f3-b910-99cce72b1946",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__item:nth-child(4) .catalogCard-img",
+      "targets": [
+        ["css=.catalog-grid__item:nth-child(4) .catalogCard-img", "css:finder"],
+        ["xpath=//img[@alt='Туалет для котів Trixie з бортиком «Mio» 32 x 12 x 43 см (пластик, кольори в асортименті) - masterzoo.ua']", "xpath:img"],
+        ["xpath=//ul[@id='uidac3b9ca864e965595b3797dbd23e7f15']/li[4]/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdc620d4-0daa-45e4-aa90-1bc77fda60a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j-buy-button-widget-4204 > .btn-content",
+      "targets": [
+        ["css=#j-buy-button-widget-4204 > .btn-content", "css:finder"],
+        ["xpath=//a[@id='j-buy-button-widget-4204']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9ab7cf4-678e-4602-af94-5a53d9ad42c1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dd6a9dc7-f282-4e4e-8c2e-777b0dd71c04",
+    "name": "Test 2",
+    "commands": [{
+      "id": "0b9aa700-8be2-49d3-8ee7-c41936e64d82",
+      "comment": "",
+      "command": "open",
+      "target": "https://masterzoo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be50c669-17e0-4af8-b11b-c10078e9e996",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Собаки",
+      "targets": [
+        ["linkText=Собаки", "linkText"],
+        ["css=.\\__hover .products-menu__title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Собаки')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/catalog/sobaki/')]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Собаки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d270e5c1-aab2-47b4-8d3a-a41f32bf1c85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__item:nth-child(10) .a-link",
+      "targets": [
+        ["css=.catalog-grid__item:nth-child(10) .a-link", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/div/ul/li[10]/div/div/div/div/a/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//li[10]/div/div/div/div/a/div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10fa39f5-22b0-4e07-880e-44bf1b7696bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Іграшка для собак Trixie Сарделька на мотузці 11 см (вініл)",
+      "targets": [
+        ["linkText=Іграшка для собак Trixie Сарделька на мотузці 11 см (вініл)", "linkText"],
+        ["css=.catalog-grid__item:nth-child(5) .catalogCard-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Іграшка для собак Trixie Сарделька на мотузці 11 см (вініл)')]", "xpath:link"],
+        ["xpath=//ul[@id='uida89aabf41e963176005ff0631068a13d']/li[5]/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/igrushka-dlya-sobak-trixie-sardelka-na-verevke-11-sm-vinil/')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Іграшка для собак Trixie Сарделька на мотузці 11 см (вініл)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a24aeef-7c8d-4c46-98f6-4c6a5de96eaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j-buy-button-widget-3109 > .btn-content",
+      "targets": [
+        ["css=#j-buy-button-widget-3109 > .btn-content", "css:finder"],
+        ["xpath=//a[@id='j-buy-button-widget-3109']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f85985ba-d495-4fc9-b234-9a68d36e08df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-btnOrder .btn-content",
+      "targets": [
+        ["css=.cart-btnOrder .btn-content", "css:finder"],
+        ["xpath=//section[@id='uidff0497217b34c128c512d17efe0c947d']/div/div[2]/div/table/tfoot/tr[2]/td/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0925e489-1d4a-401c-907d-4d79f34fb964",
+      "comment": "",
+      "command": "click",
+      "target": "name=Recipient[delivery_name]",
+      "targets": [
+        ["name=Recipient[delivery_name]", "name"],
+        ["css=.j-component .form-item:nth-child(2) > .field", "css:finder"],
+        ["xpath=//input[@name='Recipient[delivery_name]']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-container']/section/dl/dd/input", "xpath:idRelative"],
+        ["xpath=//section/dl/dd/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc0891de-aee3-4877-80db-9e97ce1433ad",
+      "comment": "",
+      "command": "type",
+      "target": "name=Recipient[delivery_name]",
+      "targets": [
+        ["name=Recipient[delivery_name]", "name"],
+        ["css=.j-component .form-item:nth-child(2) > .field", "css:finder"],
+        ["xpath=//input[@name='Recipient[delivery_name]']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-container']/section/dl/dd/input", "xpath:idRelative"],
+        ["xpath=//section/dl/dd/input", "xpath:position"]
+      ],
+      "value": "Juan"
+    }, {
+      "id": "0ffc620e-8dd7-4980-bceb-c12ba3681efd",
+      "comment": "",
+      "command": "click",
+      "target": "name=Recipient[delivery_phone]",
+      "targets": [
+        ["name=Recipient[delivery_phone]", "name"],
+        ["css=.checkout-step .j-phone", "css:finder"],
+        ["xpath=//input[@name='Recipient[delivery_phone]']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-container']/section/dl/dd[2]/input", "xpath:idRelative"],
+        ["xpath=//section/dl/dd[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b3f5f6a-d04a-4bf4-9c27-f9b4c4e2c1d1",
+      "comment": "",
+      "command": "click",
+      "target": "name=Recipient[delivery_city]",
+      "targets": [
+        ["name=Recipient[delivery_city]", "name"],
+        ["css=.ui-autocomplete-input", "css:finder"],
+        ["xpath=//input[@name='Recipient[delivery_city]']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-container']/section/dl/dd[3]/input", "xpath:idRelative"],
+        ["xpath=//dd[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "726a3541-3884-41db-ad59-1ef56e4df0a1",
+      "comment": "",
+      "command": "type",
+      "target": "name=Recipient[delivery_city]",
+      "targets": [
+        ["name=Recipient[delivery_city]", "name"],
+        ["css=.ui-autocomplete-input", "css:finder"],
+        ["xpath=//input[@name='Recipient[delivery_city]']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-container']/section/dl/dd[3]/input", "xpath:idRelative"],
+        ["xpath=//dd[3]/input", "xpath:position"]
+      ],
+      "value": "Hogwarts"
+    }, {
+      "id": "3971e0e0-7e8f-410c-b1f0-fab875f77782",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-step:nth-child(3) > .form",
+      "targets": [
+        ["css=.checkout-step:nth-child(3) > .form", "css:finder"],
+        ["xpath=//form[@id='checkout-container']/section/dl", "xpath:idRelative"],
+        ["xpath=//section/dl", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57bc713a-70b1-4e71-bf1d-85e522dfef29",
+      "comment": "",
+      "command": "click",
+      "target": "name=Recipient[delivery_email]",
+      "targets": [
+        ["name=Recipient[delivery_email]", "name"],
+        ["css=.form-item:nth-child(8) > .field", "css:finder"],
+        ["xpath=//input[@name='Recipient[delivery_email]']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-container']/section/dl/dd[4]/input", "xpath:idRelative"],
+        ["xpath=//dd[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea61b6b-af3d-4245-a947-aab05252a6fe",
+      "comment": "",
+      "command": "type",
+      "target": "name=Recipient[delivery_email]",
+      "targets": [
+        ["name=Recipient[delivery_email]", "name"],
+        ["css=.form-item:nth-child(8) > .field", "css:finder"],
+        ["xpath=//input[@name='Recipient[delivery_email]']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-container']/section/dl/dd[4]/input", "xpath:idRelative"],
+        ["xpath=//dd[4]/input", "xpath:position"]
+      ],
+      "value": "juan_hulio@gmail.com"
+    }, {
+      "id": "197006c1-b300-4a76-aef2-fb8fdef6c0a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-footer",
+      "targets": [
+        ["css=.checkout-footer", "css:finder"],
+        ["xpath=//form[@id='checkout-container']/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/section/div/div[2]/form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "589508ba-02df-4a6d-86cf-4b9ebb5ba3fd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1e9042a1-b828-43fc-8b06-59a91573f021",
+    "name": "Test 3",
+    "commands": [{
+      "id": "c8cc058e-1634-41ca-a6d8-bfe39d96de8f",
+      "comment": "",
+      "command": "open",
+      "target": "https://masterzoo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0483bde-bd69-4d43-8dd3-71100993b58f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Гризуни",
+      "targets": [
+        ["linkText=Гризуни", "linkText"],
+        ["css=.\\__hover .products-menu__title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Гризуни')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/catalog/grizuni/')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Гризуни')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41f5211a-f836-475a-abc9-8947b43441fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__item:nth-child(1) .catalogCard-img",
+      "targets": [
+        ["css=.catalog-grid__item:nth-child(1) .catalogCard-img", "css:finder"],
+        ["xpath=(//img[@alt='Клітки для гризунів'])[2]", "xpath:img"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/div/ul/li/div/div/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a21628d1-f7ac-4b11-9ba3-1b751f41c9ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вольєр Trixie d=1,30 м, h=55 см",
+      "targets": [
+        ["linkText=Вольєр Trixie d=1,30 м, h=55 см", "linkText"],
+        ["css=.catalog-grid__item:nth-child(1) .catalogCard-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Вольєр Trixie d=1,30 м, h=55 см')]", "xpath:link"],
+        ["xpath=//ul[@id='uid57948f9f4e119a5a02c42f6dfc41f16c']/li/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/voler-trixie-d130-m-h55-sm/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вольєр Trixie d=1,30 м, h=55 см')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b04549d2-47c8-4d6c-b19d-c7ec54caf04d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j-buy-button-widget-3725 > .btn-content",
+      "targets": [
+        ["css=#j-buy-button-widget-3725 > .btn-content", "css:finder"],
+        ["xpath=//a[@id='j-buy-button-widget-3725']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f85af394-f202-4060-ba30-6b4a3d97d76d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-buttons:nth-child(2) > .cart-btnBack .btn-content",
+      "targets": [
+        ["css=.cart-buttons:nth-child(2) > .cart-btnBack .btn-content", "css:finder"],
+        ["xpath=//section[@id='uid04bbfe85979017cf144af42455dda05c']/div/div[2]/div/table/tfoot/tr[2]/td/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f20ba32-b042-4758-8123-cfe0779ce170",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Клітка для гризунів Ferplast «Cavie 60» 58 x 38 x 31,5 см",
+      "targets": [
+        ["linkText=Клітка для гризунів Ferplast «Cavie 60» 58 x 38 x 31,5 см", "linkText"],
+        ["css=.catalog-grid__item:nth-child(2) .catalogCard-info a", "css:finder"],
+        ["xpath=//a[contains(text(),'Клітка для гризунів Ferplast «Cavie 60» 58 x 38 x 31,5 см')]", "xpath:link"],
+        ["xpath=//ul[@id='uidbbcef6e33f338e39f410fadc55814c25']/li[2]/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/kletka-dlya-gryzunov-ferplast-cavie-60-58-x-38-x-315-sm/')])[2]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Клітка для гризунів Ferplast «Cavie 60» 58 x 38 x 31,5 см')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c617eb7a-b0d8-4553-8c56-f11679589c3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j-buy-button-widget-10061 > .btn-content",
+      "targets": [
+        ["css=#j-buy-button-widget-10061 > .btn-content", "css:finder"],
+        ["xpath=//a[@id='j-buy-button-widget-10061']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "842b0cd9-2879-4474-88e0-91f38451be77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\__clear > .btn-content",
+      "targets": [
+        ["css=.\\__clear > .btn-content", "css:finder"],
+        ["xpath=//section[@id='uid58d14db4b1883b271688ae980ea5d3d6']/div/div[2]/div/table/tfoot/tr[2]/td/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Повернутись до покупок')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f299afd-33e9-4ddc-91a0-23c5e285a392",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Клітка для гризунів Природа «Гоша» з колесом 44 x 27 x 50 см",
+      "targets": [
+        ["linkText=Клітка для гризунів Природа «Гоша» з колесом 44 x 27 x 50 см", "linkText"],
+        ["css=.catalog-grid__item:nth-child(3) .catalogCard-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Клітка для гризунів Природа «Гоша» з колесом 44 x 27 x 50 см')]", "xpath:link"],
+        ["xpath=//ul[@id='uid76d32efa8ac2f01632aa59552ed65de9']/li[3]/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/kletka-dlya-gryzunov-priroda-gosha-s-kolesom-44-x-27-x-50-sm/')])[3]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Клітка для гризунів Природа «Гоша» з колесом 44 x 27 x 50 см')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d118de0-c8ce-4ffb-9cf2-3baa160e2e5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j-buy-button-widget-10092 > .btn-content",
+      "targets": [
+        ["css=#j-buy-button-widget-10092 > .btn-content", "css:finder"],
+        ["xpath=//a[@id='j-buy-button-widget-10092']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f5dc735-68d3-48f1-830d-90d06146426d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-btnOrder .btn-content",
+      "targets": [
+        ["css=.cart-btnOrder .btn-content", "css:finder"],
+        ["xpath=//section[@id='uidf0d08cc2ff2650d3cf36b44fdfbb6041']/div/div[2]/div/table/tfoot/tr[2]/td/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e3a74ce-99c1-49c2-bf15-0484cdd5cb19",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4a510159-3ca2-4512-ad2d-fe0b236fe34d",
+    "name": "Test 4",
+    "commands": [{
+      "id": "13f036ce-a507-4adb-b41a-1faacb31ea17",
+      "comment": "",
+      "command": "open",
+      "target": "https://masterzoo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39d59349-ef0f-4ecf-9796-4931bb8517c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1580x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92cdfc82-e372-4979-b063-76c56a663f64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Уцінка товару",
+      "targets": [
+        ["linkText=Уцінка товару", "linkText"],
+        ["css=.\\__hover .products-menu__title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Уцінка товару')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/utsinka-tovaru/')]", "xpath:href"],
+        ["xpath=//li[10]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Уцінка товару')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "350636d3-7be5-4b1a-9c27-6935f1a06335",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalogCard-title > .a-link",
+      "targets": [
+        ["css=.catalogCard-title > .a-link", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/div/ul/li/div/div/div/div/a/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8c340f0-03b3-4ff1-b839-6313c582c95f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,70)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd35c22b-2610-458f-870d-bc996b411924",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Сухий корм для собак великих порід з атлетичною статурою Pro Plan Large Athletic 14 кг (ягня)",
+      "targets": [
+        ["linkText=Сухий корм для собак великих порід з атлетичною статурою Pro Plan Large Athletic 14 кг (ягня)", "linkText"],
+        ["css=.catalog-grid__item:nth-child(1) .catalogCard-info a", "css:finder"],
+        ["xpath=//a[contains(text(),'Сухий корм для собак великих порід з атлетичною статурою Pro Plan Large Athletic 14 кг (ягня)')]", "xpath:link"],
+        ["xpath=//ul[@id='uid5f23913664f1ff47070c6778f2bfd661']/li/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/sukhiy-korm-dlya-sobak-velikikh-porid-z-atletichnou-staturou-pro-plan-large-athletic-14-kg-yagnya/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Сухий корм для собак великих порід з атлетичною статурою Pro Plan Large Athletic 14 кг (ягня)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "640b483e-27d9-4d42-a7c8-96f3bdf2ef07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon--comparison-m > use",
+      "targets": [
+        ["css=.icon--comparison-m > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fa51ce6-f1ee-4d10-b49d-21b77068a883",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Сухий корм для дорослих собак малих порід Pro Plan Adult Small and Mini 9+, 3 кг (курка)",
+      "targets": [
+        ["linkText=Сухий корм для дорослих собак малих порід Pro Plan Adult Small and Mini 9+, 3 кг (курка)", "linkText"],
+        ["css=.catalog-grid__item:nth-child(3) .catalogCard-info a", "css:finder"],
+        ["xpath=//a[contains(text(),'Сухий корм для дорослих собак малих порід Pro Plan Adult Small and Mini 9+, 3 кг (курка)')]", "xpath:link"],
+        ["xpath=//ul[@id='uidbc8c5468b9c66c514a607c0c154b5622']/li[3]/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/sukhiy-korm-dlya-doroslikh-sobak-malikh-porid-pro-plan-adult-small-and-mini-9-3-kg-kurka/18195/')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Сухий корм для дорослих собак малих порід Pro Plan Adult Small and Mini 9+, 3 кг (курка)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91044e25-4820-4e51-ad9e-cf3327c23b5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon--comparison-m > use",
+      "targets": [
+        ["css=.icon--comparison-m > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "21670085-e069-4928-83c4-6b71845d8f9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon--round-checkbox-outline",
+      "targets": [
+        ["css=.icon--round-checkbox-outline", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "37de9401-cf95-4971-af75-bba3326935c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.compare-sidebar .j-params-differences",
+      "targets": [
+        ["css=.compare-sidebar .j-params-differences", "css:finder"],
+        ["xpath=//section[@id='uide9e9d4a6184d7d954eacd9e1f0cb3bc5']/div/div[4]/div/table/thead/tr/td/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//td/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dddae734-92f4-4393-a17a-65af3ef1bc3f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c59a9ddb-6847-4aa7-a809-c44c7c648590",
+    "name": "Test 5",
+    "commands": [{
+      "id": "f25eeb18-ff75-4e87-a309-24d783be1ce9",
+      "comment": "",
+      "command": "open",
+      "target": "https://masterzoo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "867a2ea8-524a-4771-bdf1-520e7c772ab3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1580x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39152022-264b-48ce-979c-b85b95e473f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Коти",
+      "targets": [
+        ["linkText=Коти", "linkText"],
+        ["css=.products-menu__item:nth-child(3) .products-menu__title-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Коти')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/catalog/koti/')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Коти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0099b9ce-8b1f-40ee-be9b-5a39c1ca5391",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__item:nth-child(2) .a-link",
+      "targets": [
+        ["css=.catalog-grid__item:nth-child(2) .a-link", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/div/ul/li[2]/div/div/div/div/a/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/a/div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d9e638c-e357-44db-9dfd-6f8473443cdd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вітамінні ласощі для котів GimCat Nutri Pockets Dental для зубів 60 г (для гігієни ротової порожнини)",
+      "targets": [
+        ["linkText=Вітамінні ласощі для котів GimCat Nutri Pockets Dental для зубів 60 г (для гігієни ротової порожнини)", "linkText"],
+        ["css=.catalog-grid__item:nth-child(1) .catalogCard-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Вітамінні ласощі для котів GimCat Nutri Pockets Dental для зубів 60 г (для гігієни ротової порожнини)')]", "xpath:link"],
+        ["xpath=//ul[@id='uid34606864ad24cb6cecbc91620d36226f']/li/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/lakomstvo-dlya-koshek-gimcat-nutri-pockets-dental-60-g-dlya-zubov/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вітамінні ласощі для котів GimCat Nutri Pockets Dental для зубів 60 г (для гігієни ротової порожнини)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b2adad9-d64f-42d8-97cf-b18eb60d9c87",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j-buy-button-widget-561 > .btn-content",
+      "targets": [
+        ["css=#j-buy-button-widget-561 > .btn-content", "css:finder"],
+        ["xpath=//a[@id='j-buy-button-widget-561']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'В кошику')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dfb255f-b5c0-408d-b337-712a5f00e86b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product_5d7bdfda7b3241ca2adca42d2957a0b0 .counter-btn:nth-child(3) > .icon",
+      "targets": [
+        ["css=#product_5d7bdfda7b3241ca2adca42d2957a0b0 .counter-btn:nth-child(3) > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "434cdca5-4ce7-4ebb-85f3-74485481f6a3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#product_76ddebd975f92e63e725191ac1135262 .counter-btn:nth-child(3) > .icon",
+      "targets": [
+        ["css=#product_76ddebd975f92e63e725191ac1135262 .counter-btn:nth-child(3) > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "949bf871-1e7b-414e-9433-cba4641a72a3",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#product_76ddebd975f92e63e725191ac1135262 .counter-btn:nth-child(3) > .icon",
+      "targets": [
+        ["css=#product_76ddebd975f92e63e725191ac1135262 .counter-btn:nth-child(3) > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ec16e17-0c41-4b2c-9658-dddafdae4089",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "38074526-d5dd-41ea-814d-6cfd7195143d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["563c801e-204a-4466-817f-713c846c6ef0"]
+  }],
+  "urls": ["https://masterzoo.ua/ua/"],
+  "plugins": []
+}
